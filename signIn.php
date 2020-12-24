@@ -34,8 +34,10 @@
                     </form>
 
                     <?php
+
+
                     $connect = mysqli_connect('localhost','root','','bseb');
-                    if(isset($_POST['send']){
+                    if(isset($_POST['send'])){
                         $email = $_POST['email'];
                         $password = $_POST['password'];
 
@@ -51,10 +53,7 @@
                         // else{
                         //     echo "<script>alert('user_name and password is incurrect')</script>";
                         // }
-                    }
-                    
-                    
-                    
+                        }
                     ?>
 
                 </div>
