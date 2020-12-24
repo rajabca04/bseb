@@ -32,6 +32,31 @@
                         </div>
 
                     </form>
+
+                    <?php
+                    $connect = mysqli_connect('localhost','root','','bseb');
+                    if(isset($_POST['send']){
+                        $email = $_POST['email'];
+                        $password = $_POST['password'];
+
+                        $query = mysqli_query($connect,"SELECT * FROM schools WHERE email='$email' AND password = '$password'");
+
+                        $count = mysqli_num_rows($query);
+
+
+                        // if($count>0){
+                        //     $_SESSION('user') = $email;
+                        // }
+
+                        // else{
+                        //     echo "<script>alert('user_name and password is incurrect')</script>";
+                        // }
+                    }
+                    
+                    
+                    
+                    ?>
+
                 </div>
             </div>
         </div>
