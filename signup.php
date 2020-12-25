@@ -7,7 +7,17 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
 
 </head>
-<body>
+<body background="Capture.PNG">
+
+<nav class="navbar navbar-expand-lg navbar-dark bg-danger">
+       <div class="navbar-brand mx-auto"><a href="" style="text-align:center; color:white; text-decoration:none;">Bihar school examination bord.</a></div>
+
+       <ul class="navbar-nav">
+           <li class="nav-item"><a href="signIn.php" class="nav-link"  style="float: right;">Signin</a></li>
+           <li class="nav-item"><a href="signup.php" class="nav-link">Signup</a></li>
+       </ul>
+    </nav>
+
     <div class="container mt-5">
         <div class="row">
             <div class="d-flex justify-content-center">

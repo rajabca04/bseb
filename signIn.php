@@ -8,6 +8,15 @@
 
 </head>
 <body>
+
+<nav class="navbar navbar-expand-lg navbar-dark bg-danger">
+       <div class="navbar-brand mx-auto"><a href="" style="text-align:center; color:white; text-decoration:none;">Bihar school examination bord.</a></div>
+
+       <ul class="navbar-nav">
+           <li class="nav-item"><a href="signIn.php" class="nav-link"  style="float: right;">Signin</a></li>
+           <li class="nav-item"><a href="signup.php" class="nav-link">Signup</a></li>
+       </ul>
+    </nav>
     
 <div class="container mt-5">
     <div class="row">
@@ -34,7 +43,6 @@
                     </form>
 
                     <?php
-
 
                     $connect = mysqli_connect('localhost','root','','bseb');
                     if(isset($_POST['send'])){
