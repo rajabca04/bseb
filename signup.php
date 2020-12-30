@@ -12,8 +12,8 @@
 <nav class="navbar navbar-expand-lg navbar-dark bg-danger">
        <div class="navbar-brand mx-auto"><a href="" style="text-align:center; color:white; text-decoration:none;">Bihar school examination bord.</a></div>
 
-       <ul class="navbar-nav">
-           <li class="nav-item"><a href="signIn.php" class="nav-link"  style="float: right;">Signin</a></li>
+       <ul class="navbar-nav mx-auto">
+           <li class="nav-item"><a href="signIn.php" class="nav-link">Signin</a></li>
            <li class="nav-item"><a href="signup.php" class="nav-link">Signup</a></li>
        </ul>
     </nav>
@@ -56,8 +56,6 @@
 
                                     $puts = mysqli_query($connect,"INSERT INTO schools(title,email,password) VALUE ('$title','$email','$password')");
                                 }
-                            
-                            
                             ?>
 
                         </div>

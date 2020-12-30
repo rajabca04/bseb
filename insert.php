@@ -12,8 +12,8 @@
        <div class="navbar-brand mx-auto"><a href="" style="text-align:center; color:white; text-decoration:none;">Bihar school examination bord.</a></div>
 
        <ul class="navbar-nav">
-           <li class="nav-item"><a href="signIn.php" class="nav-link"  style="float: right;">Signin</a></li>
-           <li class="nav-item"><a href="signup.php" class="nav-link">Signup</a></li>
+           <!-- <li class="nav-item"><a href="signIn.php" class="nav-link"  style="float: right;">Signin</a></li>-->
+           <li class="nav-item"><a href="signup.php" class="nav-link">Signup</a></li> 
        </ul>
     </nav>
 

@@ -1,3 +1,8 @@
+<?php 
+include "config.php"
+?>
+
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -54,13 +59,20 @@
                         $count = mysqli_num_rows($query);
 
 
-                        // if($count>0){
-                        //     $_SESSION('user') = $email;
-                        // }
+                        if($count>0){
+                            $_SESSION['user'] = $email;
 
-                        // else{
-                        //     echo "<script>alert('user_name and password is incurrect')</script>";
-                        // }
+                            // echo "You are loginend";
+
+                             redirect('insert');
+
+
+
+                        }
+
+                        else{
+                            echo "<script>alert('user_name and password is incurrect')</script>";
+                        }
                         }
                     ?>
 
